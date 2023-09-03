@@ -1,0 +1,21 @@
+public class Box{
+    private static int length;
+    private static int breadth;
+    private static int height;
+    
+   public static void set(int i,int j, int k){
+        length=i;
+        breadth=j;
+        height=k;
+    }
+    public static void get(){
+        System.out.println("Length= "+length);
+        System.out.println("Breadth= "+breadth);
+        System.out.println("Height= "+height);
+    }
+    public static void main(String args[]){
+        Box b1=new Box();
+        b1.set(45,56,78);
+        b1.get();
+    }
+}
