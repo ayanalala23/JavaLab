@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Circle{
+    
+    public static void main(String args[]){
+        System.out.println("Give any radius");
+        Scanner ob1=new Scanner(System.in);
+        int r=ob1.nextInt();
+        
+        double area=Math.PI*r*r;
+        double perimeter=2*Math.PI*r;
+        
+        System.out.println("The area of the circle is "+area);
+        System.out.println("The perimeter of the circle is "+perimeter);
+    }
+}
