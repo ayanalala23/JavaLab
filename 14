@@ -1,0 +1,15 @@
+public class A{
+    int a;
+    static int b;
+    public static void fun1(){
+        b=3;
+    }
+    public static void main(String args[]){
+        A a=new A();
+        a.fun1();
+        System.out.println(5);
+        
+    }
+}
+
+
