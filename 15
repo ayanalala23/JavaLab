@@ -1,0 +1,18 @@
+public class A{
+    private double length;
+    private double breadth;
+    
+    public void setter(double l,double b){
+        length=l;
+        breadth=b;
+    }
+    public void getter(){
+        System.out.println("length = "+length);
+        System.out.println("breadth = "+breadth);
+    }
+    public static void main(String args[]){
+        A rect1=new A();
+        rect1.setter(64.12,32.12);
+        rect1.getter();
+    }
+}
