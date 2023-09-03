@@ -1,0 +1,27 @@
+public class Calculator{
+    private int a;
+    private int b;
+    Calculator(int i,int j){
+        this.a=i;
+        this.b=j;
+    }
+    public int add(){
+        return (a+b);
+    }
+    public int subtract(){
+        return(a-b);
+    }
+    public int mult(){
+        return(a*b);
+    }
+    public int div(){
+        return (a/b);
+    }
+    public static void main(String args[]){
+        Calculator c=new Calculator(20,10);
+        System.out.println("The sum is: "+ c.add());
+        System.out.println("The difference is: "+c.subtract());
+        System.out.println("The product is: "+c.mult());
+        System.out.println("The quotient is: "+c.div());
+    }
+}
