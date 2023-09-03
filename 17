@@ -1,0 +1,20 @@
+public class Software{
+    
+    static double sw_price;
+    static String sw_name;
+    static int sw_Lic;
+    
+    public static void set(double i,String j,int k){
+        sw_price=i;
+        sw_name=j;
+        sw_Lic=k;
+    }
+    public static void get(){
+        System.out.println(sw_price+sw_name+sw_Lic);
+    }
+    
+    public static void main(String args[]){
+        Software.set(52.5,"Microsoft",125);
+        Software.get();
+    }
+}
