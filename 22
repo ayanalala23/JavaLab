@@ -1,0 +1,97 @@
+//Program for autoboxing with character
+
+
+public class WrapperExample1{
+    public static void main(String args[]){
+       
+       char c='a';
+        Character i=Character.valueOf(c);   
+        Character j=c;     
+        System.out.println(c+" "+i+" "+j);
+    }
+}
+
+
+
+
+//Program for autoboxing with double
+
+
+public class WrapperExample1{
+    public static void main(String args[]){
+       
+       double d=56.9786;
+       double a=Double.valueOf(c);   
+        Double b=d;     
+        System.out.println(d+" "+a+" "+b);
+    }
+}
+
+
+
+//Program for autoboxing with float
+
+
+public class WrapperExample1{
+    public static void main(String args[]){
+       
+       float f=45.6F;
+        Float g=Float.valueOf(c);   
+        Float h=g;     
+        System.out.println(f+" "+g+" "+h);
+    }
+}
+
+
+//Program for autoboxing with long
+
+
+public class WrapperExample1{
+    public static void main(String args[]){
+       
+      long l= 5678935423L;
+        Long m=Long.valueOf(c);   
+        Long n=l;     
+        System.out.println(l+" "+m+" "+b);
+    }
+}
+
+//Program for autoboxing with byte
+
+
+public class WrapperExample1{
+    public static void main(String args[]){
+       
+      byte b=3;
+        Byte c=Byte.valueOf(c);   
+       Byte d=b;     
+        System.out.println(b+" "+c+" "+d);
+    }
+}
+
+//Program for autoboxing with boolean
+
+
+public class WrapperExample1{
+    public static void main(String args[]){
+       
+      boolean c=true;
+        Boolean i=Boolean.valueOf(c);   
+       Boolean j=c;     
+        System.out.println(c+" "+i+" "+j);
+    }
+}
+
+
+//Program for autoboxing with short
+
+
+public class WrapperExample1{
+    public static void main(String args[]){
+       
+     short s=56;
+        Short t=Short.valueOf(c);   
+       Short u=s;     
+        System.out.println(s+" "+t+" "+u);
+    }
+}
