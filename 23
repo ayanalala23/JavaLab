@@ -1,0 +1,89 @@
+//Program for unboxing with Integer
+
+public class WrapperExample2{
+    public static void main(String args[]){
+        //converting Integer to int
+        
+        Integer a=new Integer(3);
+        int i=a.intValue();   //converting Integer to int explicitly
+        int j=a;
+        
+        System.out.println(a+" "+i+" "+j);
+    }
+}
+
+
+//Program for unboxing with Character
+
+public class WrapperExample2{
+    public static void main(String args[]){
+        
+        
+        Character c=new Character('v');
+        char d=c.charValue();   
+        char e=c;
+        
+        System.out.println(c+" "+d+" "+e);
+    }
+}
+
+
+//Program for unboxing with Double
+
+public class WrapperExample2{
+    public static void main(String args[]){
+        
+    
+        Double d=new Double(345.7986754);
+        double e=d.doubleValue();   
+        double f=d;
+        
+        System.out.println(d+" "+e+" "+f);
+    }
+}
+
+
+
+//Program for unboxing with float
+
+public class WrapperExample2{
+    public static void main(String args[]){
+        
+    
+        Float f=new Float(65.9F);
+        float g=f.floatValue();   
+        float h=f;
+        
+        System.out.println(f+" "+g+" "+h);
+    }
+}
+
+
+//Program for unboxing with long
+
+public class WrapperExample2{
+    public static void main(String args[]){
+        
+    
+        Long l=new Long(748073373L);
+        long m=l.longValue();   
+        long n=l;
+        
+        System.out.println(l+" "+m+" "+n);
+    }
+}
+
+
+//Program for unboxing with boolean
+
+public class WrapperExample2{
+    public static void main(String args[]){
+        
+    
+        Boolean a= new Boolean(false);
+        boolean t=a.booleanValue();   
+        boolean u=a;
+        
+        System.out.println(a+" "+t+" "+u);
+    }
+}
